@@ -11,7 +11,8 @@ subTypeElement.addEventListener("change", function (e) {
     console.log(subType);
 });
 
-subDurationElement.addEventListener("change", function {
+subDurationElement.addEventListener("change", function (e) {
     subDuration = Number (e.target.value);
     console.log(subDuration);
 });
+
