@@ -6,3 +6,7 @@ var subType = "basic";
 var subDuration = 1;
 
 
+subDurationElement.addEventListener("change", function (e) {
+    subType = e.target.value;
+    console.log(subType);
+})
